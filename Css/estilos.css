@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*estilos generales de pantallas de celulares*/
+body {
+  background-color: #8BBBD9; }
+
+body header nav img {
+  width: 10%;
+  height: 10%; }
+
+.container{
+  background-color: #8BBBD9;
+  padding: 5%;
+  margin-top: 13%;
+  display: grid;
+  gap: 1,5rem;
+ 
+}
+
+div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+footer {
+  background-color: #F8F9FA;
+  justify-content: center;
+  display: flex;
+  gap: 2rem; 
+  
+}
+.botonScale:hover{
+  transform: scale(0.9);
+  grid-row: span 1;
+}
+
+/*estilos item de main*/
+.div3{
+  display: none;
+}
+
+/*mq de Tablet*/
+
+@media screen  and (min-width: 600px){
+  .container .div3{
+    display: block;
+  }
+  .container{
+    margin-top: 10%;
+  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    gap: 1.5rem;
+  }
+  footer{
+    margin-top: 10vh;
+  }
+
+} 
+/*mq desktop*/
+@media screen and (min-width: 1024px )
+{
+   body header nav img {
+    width: 8%;
+    height: 8%;
+   }
+   main{
+    height: 115vh;
+   }
+  .container .div3{
+    display: block;
+  }
+  .container{
+    margin-top: 8%;
+    margin-bottom: none;
+    padding: 1%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 38%);
+    gap: 1rem;
+  }
+  footer{
+    margin-top: 1vh;
+  }
+}
+
+
+/*html "nosotros" especificaciones*/
+
+.colordiv{
+  background-color: #F8F9FA;
+}
+
+/* mq de tablet*/
+@media screen and (min-width: 600px)
+{
+  .colordiv{
+    background-color: #8BBBD9;
+}
+}
+
+/*mq desktop*/
+@media screen and (min-width:1020px)
+{
+  .colordiv2{
+    background-color: #F8F9FA;
+  }
+}
+
+/*estilos especificos para html Actividades*/
+
+/*mq tablet*/
+@media screen and (min-width:600px)
+{
+  footer .actividades{
+    margin-top: 50vh ;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 1020px)
+{
+  main div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3;
+  }
+  footer .actividades{
+    margin-top: 20vh;
+
+  }
+}
+
+
+
+
+
+
