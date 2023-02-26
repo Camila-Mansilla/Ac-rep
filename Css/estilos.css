@@ -110,26 +110,39 @@ footer {
 }
 
 /*estilos especificos para html Actividades*/
-
+/*mobile*/
+.containerAct{
+  background-color: #8BBBD9;
+  padding: 5%;
+  margin-top: 10%;
+  display: grid;
+  gap: 1,5rem;
+}
 /*mq tablet*/
 @media screen and (min-width:600px)
 {
+  .containerAct{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(4,30%) ;
+    gap: 1.5rem;
+    margin-top: 10%;
+  }
   footer .actividades{
-    margin-top: 50vh ;
+    margin-top: 10vh ;
   }
 }
 /*desktop*/
 @media screen and (min-width: 1020px)
 {
-  main div{
-    display: grid;
+  .containerAct{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 3;
+    grid-template-rows:repeat(4, 35%) ;
+    margin-bottom: 10vh;
+    margin-top: 5%;
   }
-  footer .actividades{
-    margin-top: 20vh;
 
-  }
+ 
 }
 
 
