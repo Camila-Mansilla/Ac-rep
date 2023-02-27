@@ -125,11 +125,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:repeat(4,30%) ;
-    gap: 1.5rem;
+    gap: 2rem;
     margin-top: 10%;
   }
   footer .actividades{
-    margin-top: 10vh ;
+    margin-top: 5vh ;
   }
 }
 /*desktop*/
@@ -137,11 +137,13 @@ footer {
 {
   .containerAct{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:repeat(4, 35%) ;
-    margin-bottom: 10vh;
+    grid-template-rows:repeat(4, 50%) ;
+    margin-bottom: 60vh;
     margin-top: 5%;
   }
-
+  footer{
+    margin-top: 10vh;
+  }
  
 }
 
