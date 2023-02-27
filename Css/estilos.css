@@ -182,5 +182,36 @@ footer {
   }
 }
 
+/*Html ubicacion*/
 
+.contenedor4{
+  margin-top: 7%;
+  background-color: #8BBBD9;
+  padding: 2%;
+  display: grid;
+  margin-bottom: 20vh;
+}
+
+
+@media  screen and (max-width: 600px)
+{
+  .contenedor4{
+    margin-top: 15%;
+  }
+  .container-text-center{
+    transform: translate(7%,0%);
+  }
+  
+}
+
+@media screen and (min-width:600px)
+{
+  .contenedor4{
+    margin-top: 10%;
+  }
+  .container-text-center{
+    transform: translate(35%,0%);
+  }
+}
+ 
 

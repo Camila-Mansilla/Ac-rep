@@ -13,38 +13,51 @@
 <body>
     <header>
         <!--menu de navegacion-->
-        <img src="../Img/logoAc.png" alt="Logo Club Argentino de Castelar">
-        <h1>Club Argentino de Castelar</h1>
-        <nav>
-            <ul >
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Nosotros.html">Nosotros</a>
-                    </li>
-                <li>
-                    <a href="./Actividades.html">Actividades</a>
-                    </li>
-                <li>
-                    <a href="./Ubicacion.html">Ubicacion</a>
-                </li>
-                <li>
-                    <a href="./Contacto.html">Contactanos</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <img src="../Img/logoAc.png" alt="Logo club argentino de castelar">
+            <a class="navbar-brand" href="#">Club Argentino de Castelar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./Nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                         <a class="nav-link active" href="./Actividades.html">Actividades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./Ubicacion.html">Ubicacion</a>
+                        <li class="nav-item">
+                         <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
+                        </li>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
     </Header>
     </header>
-    <main class="contenedor2">
-      <div class="container text-center">
+    <main class="contenedor4">
+        <div class="col"> <h1>Ubicacion</h1>
+            <p>Nos encontramos en ​Montes de Oca 2242 - Castelar - Prov. Bs As.
+
+                clubculturalargentino@speedy.com.ar
+                
+                Tel: 4629-1204
+                Secretaria
+                Lunes a Viernes 9 a 20hs
+                Sabados 10 a 15hs
+            </p></div>
+      <div class="container-text-center">
         <div class="row row-cols-2">
           <div class="col">        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.1802638902072!2d-58.64205908476919!3d-34.65015018044744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8a98b84ace9%3A0x43ced019b83113e3!2sClub%20Argentino!5e0!3m2!1ses-419!2sar!4v1674120266464!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <div class="col"></div>
-          <div class="col">  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae similique voluptate id, eligendi nostrum modi est provident unde rerum nihil. Voluptatem nobis atque, itaque culpa incidunt sint sapiente dicta quas.</p></div>
-          <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia perspiciatis blanditiis repudiandae. Culpa magni, voluptas dolor odio autem quia. Cupiditate est aperiam quia dolorum reiciendis debitis perferendis sequi 
-          </p></div>
         </div>
       </div>
     </main>
