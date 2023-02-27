@@ -147,8 +147,40 @@ footer {
  
 }
 
+/*especificaciones html Contacto*/
 
+.container4{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:repeat(4, 20%) ;
+  margin-bottom: 30vh;
+  margin-top: 13%;
+}
+.form1, .form2{
+  display: flex;
+  padding: 2%;
+}
 
+.form2{
+  justify-content: flex-start;
+}
+.form{
+  background-color: #F8F9FA;
+  display: flex;
+  width: 40%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  transform: translate(75%,0%);
+}
+
+/*mq desktop*/
+@media screen and (min-width: 1020px)
+{
+  .container4{
+    margin-top: 7%;
+    margin-bottom: 15vh;
+  }
+}
 
 
 

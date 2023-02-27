@@ -11,33 +11,54 @@
     <title>AC/Contactanos</title>
 </head>
 <body>
-    <header>
+    <Header>
         <!--menu de navegacion-->
-        <img src="../Img/logoAc.png" alt="Logo Club Argentino de Castelar">
-        <h1>Club Argentino de Castelar</h1>
-        <nav>
-            <ul >
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/Nosotros.html">Nosotros</a>
-                    </li>
-                <li>
-                    <a href="./pages/Actividades.html">Actividades</a>
-                    </li>
-                <li>
-                    <a href="./pages/Ubicacion.html">Ubicacion</a>
-                </li>
-                <li>
-                    <a href="./pages/Contacto.html">Contactanos</a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+               <img src="../Img/logoAc.png" alt="Logo club argentino de castelar">
+               <a class="navbar-brand" href="#">Club Argentino de Castelar</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                   <div class="offcanvas-body">
+                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                         <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link active" href="./Nosotros.html">Nosotros</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link active" href="./Actividades.html">Actividades</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link active" href="./Ubicacion.html">Ubicacion</a>
+                           <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
+                           </li>
+                         </li>
+                       </ul>
+                   </div>
+               </div>
+             </nav>
+        </header>
+    <main class="container4">
+        <div class="form2">
+            <h1 class="formcontacto">Contactanos</h1>
+        </div>
+    <div>
+        <p  class="form1">
+            Podes comunicarte con nosotros vía Mail, solicitando la información que necesites. También podes acercarte hasta la secretaria del club los siguientes dias y horarios:
+            Lunes a Viernes desde 9:00hs a 20:00hs.
+            Sabados desde las 10:00hs a 15:00hs.
+            Mail:Clubculturalargentino@speedy.com.ar
 
+            Tel: 4629-1204
+            
+        </p>
+    </div>
 
-    </header>
-    <main>
+    <div class="form">
         <form action="">
             <fieldset>
                 <legend>
@@ -58,9 +79,8 @@
                 </div>
             </fieldset>
         </form>
-
-
-    </main>
+    </div>
+     </main>
 
     <footer>
         <a href="https://www.youtube.com" target="_blank">
