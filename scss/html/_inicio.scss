@@ -1,0 +1,42 @@
+
+@import "../variables/vars";
+@import "../variables/mixin";
+@import"../variables/extend";
+body{
+    background-color:$color-principal;
+    header{
+        nav{
+            img{
+               width: 10%;
+               height: 10%;
+            };
+        };
+    };
+    .container{
+        @extend %containers;
+        margin-top: $margin-top2;
+        .div3{
+            display: none;
+        };
+        div{ 
+            img{
+                width:100% ;
+                height: 100%;
+                object-fit: cover;
+            };
+        };
+    };
+    footer{
+        background-color: $color-secundario;
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+        .botonScale:hover{
+            transform: scale(0.9);
+            grid-row: span 1;
+        };
+    };
+};
+
+@import"../variables/md";
+

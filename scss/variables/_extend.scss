@@ -1,0 +1,9 @@
+//extend
+@import"../variables/vars";
+
+%containers{
+    background-color: $color-principal;
+    padding: 5%;
+    display: grid;
+    gap: 1,5rem;
+}

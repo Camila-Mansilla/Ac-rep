@@ -1,42 +1,13 @@
+/*reset*/
 //reset
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+};
 
-
-/*estilos generales de pantallas de celulares*/
-  
-  
-  body{
-    background-color: #8BBBD9;
-  }
-  
-  body header nav img{
-    width: 10%;
-    height: 10%;
-  }
-  
-  .container{
-    margin-top: 13%;
-    background-color: #8BBBD9;
-    display: grid;
-    grid-template-columns: 100%;
-  }
-  
-  div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  footer{
-    background-color:  #F8F9FA;
-    justify-content: center;
-    display: flex;
-    gap: 2rem;
-  }
-
-  
+//enlace con variables
+@import "variables/vars";
+@import "../scss/html/inicio";
+@import"../scss/variables/extend"
