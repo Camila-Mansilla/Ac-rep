@@ -1,0 +1,36 @@
+@import"../variables/extend";
+@import"../variables/vars";
+
+/*Html nosotros mobile first*/
+body{
+    .container{
+        .colordiv{
+            background-color: $color-secundario;
+        };
+    };
+};
+
+/*mq tablet*/
+@media  screen and(min-width:600px)
+{
+   body{
+    .container{
+        .colordiv{
+            background-color: $color-principal;
+        };
+    };
+   };
+};
+
+/*mq desktop*/
+@media screen and(min-width:1020px)
+{
+    body{
+        .container{
+            .colordiv2{
+                background-color: $color-secundario;
+            };
+        };
+    };
+};
+

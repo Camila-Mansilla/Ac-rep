@@ -67,3 +67,23 @@ body .container {
   padding: 5%;
   display: grid;
   gap: 1,5rem; }
+
+body .container {
+  background-color: #8BBBD9;
+  padding: 5%;
+  display: grid;
+  gap: 1,5rem; }
+
+/*Html nosotros mobile first*/
+body .container .colordiv {
+  background-color: #F8F9FA; }
+
+/*mq tablet*/
+@media screen and (min-width: 600px) {
+  body .container .colordiv {
+    background-color: #8BBBD9; } }
+
+/*mq desktop*/
+@media screen and (min-width: 1020px) {
+  body .container .colordiv2 {
+    background-color: #F8F9FA; } }
