@@ -1,0 +1,53 @@
+@import"../variables/extend";
+@import"../variables/vars";
+
+/*html actividades mobile first*/
+body{
+    .containerAct{
+       @extend %containers;
+        margin-top: $margin-top1;
+        div{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+    };
+};
+
+/*mq tablet*/
+@media screen and(min-width:600px)
+{
+    body{
+        .containerAct{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(4,30%);
+            gap: 2rem;
+            margin-top: $margin-top1;
+        };
+        footer{
+            .actividades{
+                margin-top: 5vh;
+            };
+        };
+    };
+};
+/*mq desktop*/
+
+@media screen and (min-width:1020px)
+{
+    body{
+        .containerAct{
+            grid-template-columns: $grid-repeat-columns;
+            grid-template-rows: repeat(4,50%);
+            margin-bottom: 60vh;
+            margin-top: 5%;
+        };
+        footer{
+            margin-top: 10vh;
+        };
+    };
+};
