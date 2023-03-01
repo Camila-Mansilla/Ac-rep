@@ -122,3 +122,35 @@ body .containerAct {
     margin-top: 5%; }
   body footer {
     margin-top: 10vh; } }
+
+body .container, body .containerAct {
+  background-color: #8BBBD9;
+  padding: 5%;
+  display: grid;
+  gap: 1,5rem; }
+
+/*html contacto*/
+body .container4 {
+  grid-template-columns: repeat 2, 1fr;
+  grid-template-rows: repeat(4, 20%);
+  margin-bottom: 30vh;
+  margin-top: 13%; }
+  body .container4 .form1, body .container4 .form2 {
+    display: flex;
+    padding: 2%; }
+  body .container4 .form2 {
+    justify-content: flex-start; }
+  body .container4 .form {
+    background-color: #8BBBD9;
+    display: flex;
+    width: 40%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(75%, 0%); }
+
+/*mq desktop*/
+@media screen and (min-width: 1020px) {
+  body .container4 {
+    margin-top: 7%;
+    margin-bottom: 5vh; } }

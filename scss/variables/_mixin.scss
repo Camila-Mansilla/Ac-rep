@@ -1,0 +1,11 @@
+@mixin form($display, $padding)
+{
+    display: $display;
+    padding: $padding;
+};
+
+@mixin form1($width,$heigth)
+{
+    width: $width;
+    height: $heigth;
+}

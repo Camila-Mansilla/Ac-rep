@@ -1,0 +1,38 @@
+@import "../variables/extend";
+@import"../variables/vars";
+@import"../variables/mixin";
+
+/*html contacto*/
+
+body{
+    .container4{
+        grid-template-columns: $grid-repeat-columns;
+        grid-template-rows: repeat(4,20%);
+        margin-bottom: 30vh;
+        margin-top: $margin-top2;
+        .form1, .form2{
+            @include form (flex,2%)
+        };
+        .form2{
+            justify-content: flex-start;
+        };
+        .form{
+            background-color:$color-principal;
+            display: flex;
+            @include form1(40%, 30%);
+            justify-content: center;
+            align-items: center;
+            transform: translate(75%,0%);
+        };
+    };
+}
+/*mq desktop*/
+@media screen and(min-width:1020px)
+{
+    body{
+        .container4{
+            margin-top: 7%;
+            margin-bottom: 5vh;
+        };
+    };
+};
