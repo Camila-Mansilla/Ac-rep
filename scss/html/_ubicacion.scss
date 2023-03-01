@@ -1,0 +1,38 @@
+@import"../variables/extend";
+@import"../variables/vars";
+@import"../variables/mixin";
+
+/*html ubicacion*/
+body{
+    .contenedor4{
+        margin-top: 7%;
+        background-color: $color-principal;
+        padding: 2%;
+        display: grid;
+        margin-bottom: 20vh;
+    };
+};
+/*mq mobile*/
+@media screen and (max-width:600px)
+{
+    body{
+        .contenedor4{
+            margin-top: 15%;
+        };
+        .container-text-center{
+            transform: translate(7%,0%);
+        };
+    };
+};
+/*mq tablet*/
+@media screen and(min-width:600px)
+{
+    body{
+        .contenedor4{
+            margin-top: $margin-top1;
+        };
+        .container-text-center{
+            transform: translate(35%,0%);
+        };
+    };
+};

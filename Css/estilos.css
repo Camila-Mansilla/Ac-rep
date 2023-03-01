@@ -154,3 +154,31 @@ body .container4 {
   body .container4 {
     margin-top: 7%;
     margin-bottom: 5vh; } }
+
+body .container, body .containerAct {
+  background-color: #8BBBD9;
+  padding: 5%;
+  display: grid;
+  gap: 1,5rem; }
+
+/*html ubicacion*/
+body .contenedor4 {
+  margin-top: 7%;
+  background-color: #8BBBD9;
+  padding: 2%;
+  display: grid;
+  margin-bottom: 20vh; }
+
+/*mq mobile*/
+@media screen and (max-width: 600px) {
+  body .contenedor4 {
+    margin-top: 15%; }
+  body .container-text-center {
+    transform: translate(7%, 0%); } }
+
+/*mq tablet*/
+@media screen and (min-width: 600px) {
+  body .contenedor4 {
+    margin-top: 10%; }
+  body .container-text-center {
+    transform: translate(35%, 0%); } }
